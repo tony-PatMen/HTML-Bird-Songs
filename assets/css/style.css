@@ -2,12 +2,14 @@ html,
 body {
     margin: 0;
     padding: 0;
+    background-color: rgb(255, 242, 127);
 }
 
 nav {
     width: 100%;
-    background: linear-gradient(to bottom right, beige, skyblue);
-    text-align: center;
+    background: linear-gradient(to bottom right, beige, rgb(135, 206, 235));
+    text-align: left;
+    text-transform: uppercase;
 }
 
 nav ul {
@@ -27,15 +29,15 @@ nav a {
 }
 
 nav a:visited {
-    color: blue;
+    color: rgb(121, 19, 19);
 }
 
 nav a:hover {
-    color: hotpink;
+    color: rgb(255, 245, 105);
 }
 
 .current-page {
-    background-color: white;
+    background-color: rgb(135, 206, 235;
 }
 
 main {
